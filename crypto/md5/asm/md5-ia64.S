@@ -189,9 +189,9 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.  */
 //		Reads an input block, then calls the digest block
 //		subroutine and adds the results to the accumulated
 //		digest.  It allocates 32 outs which the subroutine
-//		uses as it's inputs and rotating
-//		registers. Initializes the round constant pointer and
-//		takes care of saving/restoring ar.lc
+//		uses as its inputs and rotating registers.
+//		Initializes the round constant pointer and takes
+//		care of saving/restoring ar.lc
 //
 ///	INPUT
 //
